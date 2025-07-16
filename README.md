@@ -10,11 +10,11 @@ This project is based on the [Convolutional Neural Network Tutorial](https://www
 
 ## Features
 
-* Handcrafted convolutional layers, fully connected layers, and max pool layers without external deep learning libraries
+* Handcrafted convolutional, fully connected, and max pool layers without external deep learning libraries
 * Backpropagation implementation for learning
 * Training and evaluation on the MNIST dataset
 * Functionality for saving and loading trained networks to and from files
-* GUI for testing a model with your own writing!
+* GUI for testing models
 
 ## Requirements
 
