@@ -12,9 +12,9 @@ This project is based on the [Convolutional Neural Network Tutorial](https://www
 
 * Handcrafted convolutional, fully connected, and max pool layers without external deep learning libraries
 * Backpropagation implementation for learning
-* Training and evaluation on the MNIST dataset
+* Training and evaluation on the MNIST dataset for recognizing handwritten numerical digits
 * Functionality for saving and loading trained networks to and from files
-* GUI for creating, testing, and interacting with models
+* GUI for creating, testing, and interacting with models in real time
 
 ## Requirements
 
@@ -22,7 +22,48 @@ This project is based on the [Convolutional Neural Network Tutorial](https://www
 
 ## Setup and Execution
 
-1. 
+1. Clone the repository
+```bash
+git clone https://github.com/SamitGadekar/Java-CNN.git
+cd Java-CNN
+```
+2. Project structure
+```
+/data
+  |-- DataReader.java
+  |-- Image.java
+  |-- MatrixUtility.java
+/layers
+  |-- Layer.java
+  |-- ConvolutionLayer.java
+  |-- MaxPoolLayer.java
+  |-- FullyConnectedLayer.java
+/network
+  |-- NeuralNetwork.java
+  |-- NetworkBuilder.java
+/interactive
+  |-- ModelBuilder.java
+  |-- DigitRecognizer.java
+Main.java
+```
+3. Dependencies  
+This project uses only standard Java libraries, so no external dependencies or package managers are required. (```java.util```, ```java.io```, ```java.awt```, ```javax.swing```)
+4. Running the program
+You can run the project using an IDE (like IntelliJ IDEA or Eclipse) or from the terminal.
+  
+**Run from IDE**
+- Open the project folder in your IDE.
+- Make sure all folders (```/data```, ```/layers```, ```/network```, ```/interactive```) are marked as source directories.
+- Run ```Main.java```.
+
+**Run from Terminal**
+- Assuming your ```.java``` files are inside a ```src``` folder:
+```bash
+javac -d out src/Main.java src/*.java src/data/*.java src/layers/*.java src/network/*.java src/interactive/*.java
+java -cp out Main
+```
+You can adjust the paths above if your ```.java``` files are not inside a ```src``` directory.
+5. Once you have opened and run the project, experiment with creating new models and test them out in real time by drawing with your mouse.
 
 ## Reference Tutorial
 
