@@ -14,7 +14,7 @@ This project is based on the [Convolutional Neural Network Tutorial](https://www
 * Backpropagation implementation for learning
 * Training and evaluation on the MNIST dataset
 * Functionality for saving and loading trained networks to and from files
-* GUI for testing models
+* GUI for creating, testing, and interacting with models
 
 ## Requirements
 
@@ -22,15 +22,11 @@ This project is based on the [Convolutional Neural Network Tutorial](https://www
 
 ## Setup and Execution
 
-1. TODO
+1. 
 
 ## Reference Tutorial
 
 The original tutorial repository can be found [here](https://github.com/evarae/CNN_Tutorial). The video series explaining the implementation in detail starts [here](https://youtu.be/3MMonOWGe0M).
-
-## Future Enhancements
-
-* GUI for building and training models
 
 ## Contributing
 
