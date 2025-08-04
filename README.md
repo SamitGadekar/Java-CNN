@@ -18,7 +18,7 @@ This project is based on the [Convolutional Neural Network Tutorial](https://www
 
 ## Requirements
 
-* Java 8+
+* Java 8 or later (tested on Java 22)
 
 ## Setup and Execution
 
@@ -62,7 +62,7 @@ You can run the project using an IDE (like IntelliJ IDEA or Eclipse) or from the
 javac -d out src/Main.java src/*.java src/data/*.java src/layers/*.java src/network/*.java src/interactive/*.java
 java -cp out Main
 ```
-You can adjust the paths above if your ```.java``` files are not inside a ```src``` directory.
+You can adjust the paths above if your ```.java``` files are not inside a ```src``` directory.  
 5. Once you have opened and run the project, experiment with creating new models and test them out in real time by drawing with your mouse.
 
 ## Reference Tutorial
